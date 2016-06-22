@@ -48,7 +48,7 @@ nav ul{
 }
 
 nav{
-	width: 700px;
+	width: 1000px;
 	margin: 67px auto;
 	background-color: rgb(100, 50, 0);
 	border: 2px solid black;
@@ -89,24 +89,28 @@ nav li:hover a{
 }
 
 .corps{
-	width: 800px;
+	width: 1000px;
 	height: 500px;
-	margin: 0px 0px 0px 170px;
-	padding: 5px 0px 0px 50px;
+	margin: 3px auto;
+	padding: 5px 0px;
 	text-align: left;
+	background-color: black;
 	color: white;
 }
 
 footer{
-	padding: 3px 0px 0px 60px;
-	width: auto;
+	padding: 3px 0px 0px 3px;
+	width: 1000px;
 	margin: 0px auto;
-	height: 90px;
-	border-top: 3px solid black;
+	height: 60px;
+	border: 2px solid black;
+	border-bottom: none;
 	text-align: left;
-	line-height: 15px;
 	background-color: rgb(100, 50, 0);
+}
 
+#links{
+	display: inline-block;
 }
 
 .link{
@@ -114,6 +118,10 @@ footer{
 	text-decoration: none;
 	color: white;
 	margin: 0px auto;
-	
-	
+}
+
+#copyright{
+	display: inline-block;
+	float: right;
+	margin: 28px 3px 0px 0px;
 }
