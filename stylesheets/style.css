@@ -14,8 +14,7 @@ header{
 	display: inline-block;
 	height: 170px;
 	width: 500px;
-	margin-left: 180px;
-	margin-top: 0px;
+	margin: 0 auto;
 	position: static;
 	top: -30px;
 }
