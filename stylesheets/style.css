@@ -15,6 +15,7 @@ header{
 	width: 500px;
 	margin: 0 auto;
 	position: static;
+	position: left;
 	top: -30px;
 }
 
