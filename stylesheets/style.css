@@ -16,6 +16,7 @@ header{
 	width: 75%;
 	padding: 0;
 	margin: 0 auto;
+	box-shadow: -6px 5px 5px black;
 }
 
 #logo{
@@ -33,7 +34,7 @@ header{
 	text-transform: uppercase;
 	text-align: center;
 	text-indent: 10px;
-	text-shadow: -5px 3px 5px black;
+	text-shadow: -6px 5px 5px black;
 	letter-spacing: 10px;
 	word-spacing: 20px;
 	font-size: 60px;
@@ -69,7 +70,7 @@ nav a{
 	padding: 5px 60px;
 	color: white;
 	text-transform: capitalize;
-	text-shadow: -5px 3px 5px black;
+	text-shadow: -6px 5px 5px black;
 	font-size: 25px;
 }
 
@@ -101,8 +102,8 @@ nav li:hover a{
 
 .corps{
 	width: 75%;
-	height: 443px;
-	margin: 3px auto;
+	height: 436px;
+	margin: 10px auto 3px auto;
 	text-align: left;
 	background-color: black;
 	color: white;
