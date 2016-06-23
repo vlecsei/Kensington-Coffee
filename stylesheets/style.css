@@ -11,25 +11,30 @@ body{
 }
 
 header{
-	height: 170px;
-	width: 500px;
+	border-top: 1px solid rgb(45, 32, 5);
+	border-right: 1px solid rgb(45, 32, 5);
+	width: 75%;
+	padding: 0;
 	margin: 0 auto;
-	position: static;
-	position: left;
-	top: -30px;
 }
 
-#Ken{
-	display: inline-block;
-
+#logo{
+	float: left;
 }
 
 .index{
-	position: relative;
-	top: -100px;
+	display: block;
+	height: 60px;
 	text-decoration: none;
-	color: black;
-	text-transform: capitalize;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	text-indent: 10px;
+	text-shadow: -5px 3px 5px black;
+	letter-spacing: 10px;
+	word-spacing: 20px;
+	font-size: 60px;
+	font-weight: 300px;
 }
 
 
@@ -49,11 +54,6 @@ nav ul{
 }
 
 nav{
-	position: relative;
-	top: -80.5px;
-	left: 124px;
-	width: 880px;
-	margin: 0;
 	background-color: rgb(45, 32, 5);
 }
 
@@ -93,8 +93,8 @@ nav li:hover a{
 }
 
 .corps{
-	width: 1000px;
-	height: 428px;
+	width: 75%;
+	height: 443px;
 	margin: 3px auto;
 	text-align: left;
 	background-color: black;
@@ -102,11 +102,10 @@ nav li:hover a{
 }
 
 footer{
-	width: 1000px;
+	width: 100%;
 	margin: 0px auto;
-	height: 56px;
-	border: 2px solid black;
-	border-bottom: 1px solid rgb(100, 50, 0);
+	height: 59px;
+	border-top: 2px solid black;
 	text-align: left;
 	background-color: rgb(100, 50, 0);
 }
