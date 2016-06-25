@@ -28,6 +28,8 @@ header{
 .index{
 	display: block;
 	height: 60px;
+	position: relative;
+	width: 80%;
 	margin: 0 auto;
 	text-decoration: none;
 	color: white;
